@@ -1,0 +1,86 @@
+
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.singnContainer{
+    background-color:#d9d4d4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.colum{
+    background-color: white;
+    min-height: 300px;
+    max-height: 100%;
+    width: 450px;
+    box-shadow: black,0,10;
+    padding: 20px;
+    border-radius: 20px;
+    
+    
+}
+.colum form{
+    display: flex;
+    flex-direction: column; 
+}
+
+.colum form input[type="text"],
+
+.colum form input[type="password"],
+
+.colum form input[type="email"]{
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dedede;
+
+}
+.colum form input[type="submit"]{
+    background-color: blue;
+    color: white;
+    height: 36px;
+    width: 90px;
+    border: none;
+    border-radius: 3px ;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+.colum .header{
+    margin-bottom: 20px;
+}
+.colum .header h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    padding-top: 16px;
+    color: black;
+}
+
+.colum span {
+    padding-bottom: 15px;
+}
+.colum .header img{
+    width: 150px;
+}
+
+.sign{
+    font-size: 14px;
+    font-weight: 400;
+}
